@@ -144,7 +144,7 @@
       "hint_url": "https://www.google.pt",
       "label": "Aceito os Termos (input:bool)",
       "label_url": "https://loop-os.com/terms",
-      "deal_breaker_values": "false", // "false", ""
+      "deal_breaker_values": "false",
       "required": false
     },
     {
