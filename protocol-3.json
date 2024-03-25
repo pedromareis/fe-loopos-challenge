@@ -1,0 +1,141 @@
+{
+    "submit_url": "https://core.joanactt.loop-os.stg.theloop.tech/api/v1/items/HT2HKnH7tDtn2fg2urfrW7nt/protocol_answers",
+    "items": [
+        {
+            "id": 14,
+            "position": 1,
+            "label": "Número de encomenda",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": null,
+            "type": "input:number",
+            "default": null
+        },
+        {
+            "id": 15,
+            "position": 2,
+            "label": "Data da compra",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": null,
+            "type": "input:date",
+            "default": null,
+            "min_date": "23/03/2024",
+            "max_date": "28/03/2024",
+            "granularity": "date",
+            "format": "%d/%m/%Y"
+        },
+        {
+            "id": 17,
+            "position": 3,
+            "label": "Fotografia da fatura",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": null,
+            "type": "input:images",
+            "default": null,
+            "max_size": "1000000000",
+            "max_size_batch": "200000000",
+            "min_images": 1,
+            "max_images": 1,
+            "formats": [
+                "png",
+                "jpg",
+                "jpeg",
+                "webp"
+            ]
+        },
+        {
+            "id": 18,
+            "position": 4,
+            "label": "Descrição do(s) artigo(s)",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": null,
+            "type": "input:text",
+            "default": null,
+            "text_area": true
+        },
+        {
+            "id": 20,
+            "position": 5,
+            "label": "Motivos da devolução",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": null,
+            "type": "input:select",
+            "default": null,
+            "dropdown": true,
+            "options": [
+                {
+                    "id": 1,
+                    "label": "Tamanho incorreto",
+                    "deal_breaker": false,
+                    "value": "1"
+                },
+                {
+                    "id": 2,
+                    "label": "Produto com defeito",
+                    "deal_breaker": false,
+                    "value": "2"
+                },
+                {
+                    "id": 3,
+                    "label": "Tempo de entrega desadequado com o pedido",
+                    "deal_breaker": false,
+                    "value": "3"
+                },
+                {
+                    "id": 4,
+                    "label": "Produto diferente da imagem no site",
+                    "deal_breaker": false,
+                    "value": "4"
+                },
+                {
+                    "id": 5,
+                    "label": "Produto recebido incorreto",
+                    "deal_breaker": false,
+                    "value": "5"
+                },
+                {
+                    "id": 6,
+                    "label": "Produto danificado na entrega",
+                    "deal_breaker": false,
+                    "value": "6"
+                },
+                {
+                    "id": 7,
+                    "label": "Compra do mesmo artigo em tamanhos diferentes",
+                    "deal_breaker": false,
+                    "value": "7"
+                },
+                {
+                    "id": 8,
+                    "label": "Long option to test long text. Long option to test long text. Long option to test long text. Long option to test long text. Long option to test long text. Long option to test long text. Long option to test long text. ",
+                    "deal_breaker": false,
+                    "value": "8"
+                }
+            ]
+        }
+    ]
+}
