@@ -1,0 +1,162 @@
+{
+    "items": [
+        {
+            "id": 7163,
+            "position": 1,
+            "label": "Coloca aqui uma fotografia do teu artigo",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:images",
+            "default": null,
+            "max_size": "3145728.0",
+            "max_size_batch": "3145728.0",
+            "min_images": 1,
+            "max_images": 3,
+            "formats": [
+                "png",
+                "jpg",
+                "jpeg"
+            ]
+        },
+        {
+            "id": 7173,
+            "position": 3,
+            "label": "Classifica a condição do artigo de 1 (Péssimo estado) - 10 (Excelente estado)",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:number",
+            "default": null
+        },
+        {
+            "id": 7174,
+            "position": 4,
+            "label": "Pretendo vender o meu artigo porque:",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:text",
+            "default": null,
+            "text_area": null
+        },
+        {
+            "id": 7175,
+            "position": 5,
+            "label": "Este artigo começou a ser comercializado a:",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:date",
+            "default": null,
+            "min_date": null,
+            "max_date": "25/03/2024",
+            "granularity": "date",
+            "format": "%d/%m/%Y"
+        },
+        {
+            "id": 7157,
+            "position": 6,
+            "label": "Condição",
+            "slug": null,
+            "required": true,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:select",
+            "default": null,
+            "dropdown": true,
+            "options": [
+                {
+                    "id": 2249,
+                    "label": "Excelente",
+                    "deal_breaker": false,
+                    "value": "2249"
+                },
+                {
+                    "id": 2250,
+                    "label": "Bom",
+                    "deal_breaker": false,
+                    "value": "2250"
+                },
+                {
+                    "id": 2251,
+                    "label": "Satisfatório",
+                    "deal_breaker": false,
+                    "value": "2251"
+                },
+                {
+                    "id": 2258,
+                    "label": "Mau",
+                    "deal_breaker": true,
+                    "value": "2258"
+                }
+            ]
+        },
+        {
+            "id": 7177,
+            "position": 8,
+            "label": "どうもありがとうございます",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "info:image",
+            "default": null,
+            "url": "https://core.bil.loop-os.stg.theloop.tech/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdlFVIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--89d2a48553d9234c429dba4b299b61430c580256/756713.jpg"
+        },
+        {
+            "id": 7178,
+            "position": 9,
+            "label": "Let's go, Automation!",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "info:text",
+            "default": null,
+            "body": null
+        },
+        {
+            "id": 7179,
+            "position": 10,
+            "label": "Visita o nosso site Book in Loop",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "info:url",
+            "default": null,
+            "url": "https://bookinloop.pt/",
+            "url_text": null,
+            "icon": null
+        }
+    ]
+}
