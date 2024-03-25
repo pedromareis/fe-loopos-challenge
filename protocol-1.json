@@ -1,0 +1,241 @@
+{
+    "items": [
+        {
+            "id": 7091,
+            "position": 1,
+            "label": "Insere 3 imagens",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:images",
+            "default": null,
+            "max_size": "1000000",
+            "max_size_batch": "3000000",
+            "min_images": 3,
+            "max_images": 6,
+            "formats": [
+                "png",
+                "jpg",
+                "jpeg",
+                "webp",
+                "svg"
+            ]
+        },
+        {
+            "id": 7225,
+            "position": 2,
+            "label": "Insere 3 imagens - Copy",
+            "slug": null,
+            "required": true,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:images",
+            "default": null,
+            "max_size": "1000000",
+            "max_size_batch": "3000000",
+            "min_images": 3,
+            "max_images": 6,
+            "formats": [
+                "png",
+                "jpg",
+                "jpeg",
+                "webp",
+                "svg"
+            ]
+        },
+        {
+            "id": 7093,
+            "position": 3,
+            "label": "Muda a valorização ou não?",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:select",
+            "default": null,
+            "dropdown": null,
+            "options": [
+                {
+                    "id": 2204,
+                    "label": "Sim",
+                    "deal_breaker": false,
+                    "value": "2204"
+                },
+                {
+                    "id": 2205,
+                    "label": "Não",
+                    "deal_breaker": false,
+                    "value": "2205"
+                },
+                {
+                    "id": 2206,
+                    "label": "Talvez",
+                    "deal_breaker": true,
+                    "value": "2206"
+                }
+            ]
+        },
+        {
+            "id": 7125,
+            "position": 6,
+            "label": "Nº de série do artigo",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:number",
+            "default": null
+        },
+        {
+            "id": 7126,
+            "position": 7,
+            "label": "Artigo está partido?",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:select",
+            "default": null,
+            "dropdown": null,
+            "options": [
+                {
+                    "id": 2225,
+                    "label": "Sim",
+                    "deal_breaker": false,
+                    "value": "2225"
+                },
+                {
+                    "id": 2226,
+                    "label": "Não",
+                    "deal_breaker": false,
+                    "value": "2226"
+                }
+            ]
+        },
+        {
+            "id": 7127,
+            "position": 8,
+            "label": "Descrição do artigo",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:text",
+            "default": null,
+            "text_area": null
+        },
+        {
+            "id": 7128,
+            "position": 9,
+            "label": "Data de compra",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:date",
+            "default": null,
+            "min_date": null,
+            "max_date": null,
+            "granularity": "date",
+            "format": "%d/%m/%Y"
+        },
+        {
+            "id": 7131,
+            "position": 10,
+            "label": "Imagem para ilustrar",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "info:image",
+            "default": null,
+            "url": "https://core.bil.loop-os.stg.theloop.tech/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdDhPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cc0f645206bbf01802650b61826bb5ad231c51ce/vcz2i0dt3qjrkrn67m96b0klbbnx.png"
+        },
+        {
+            "id": 7132,
+            "position": 11,
+            "label": "Testem como deve ser!",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "info:text",
+            "default": null,
+            "body": null
+        },
+        {
+            "id": 7133,
+            "position": 12,
+            "label": "URL fresquinho",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "info:url",
+            "default": null,
+            "url": "https://sardinescontest.azurewebsites.net/Gallery/GalleryDetail?ContestModel=4\u0026ViewMode=6\u0026Page=210\u0026Category=00000000-0000-0000-0000-000000000000\u0026Technique=00000000-0000-0000-0000-000000000000\u0026Position=4195",
+            "url_text": null,
+            "icon": null
+        },
+        {
+            "id": 7165,
+            "position": 14,
+            "label": "Deal breaker com valorização",
+            "slug": null,
+            "required": false,
+            "hint": null,
+            "hint_icon": null,
+            "hint_url": null,
+            "hint_url_text": null,
+            "autocomplete_type": "no-autocomplete",
+            "type": "input:select",
+            "default": null,
+            "dropdown": null,
+            "options": [
+                {
+                    "id": 2253,
+                    "label": "Sim",
+                    "deal_breaker": false,
+                    "value": "2253"
+                },
+                {
+                    "id": 2254,
+                    "label": "Não",
+                    "deal_breaker": true,
+                    "value": "2254"
+                }
+            ]
+        }
+    ]
+}
